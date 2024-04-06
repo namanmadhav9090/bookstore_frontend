@@ -1,0 +1,37 @@
+/* BookForm.css */
+
+.bookForm {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .bookForm h2 {
+    text-align: center;
+  }
+  
+  .bookForm form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .bookForm input,
+  .bookForm textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .bookForm button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  

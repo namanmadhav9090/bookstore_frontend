@@ -1,0 +1,25 @@
+/* Navbar.module.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color:white;
+  min-height: 4rem;
+  padding:0 4rem;
+}
+
+.nav_small_cont{
+  display: flex;
+  gap:2rem;
+  align-items: center;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.cartIcon {
+  cursor: pointer;
+}

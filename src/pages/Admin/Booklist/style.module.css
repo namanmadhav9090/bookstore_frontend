@@ -1,0 +1,18 @@
+/* BookList.css */
+
+.bookList {
+  display: flex;
+  flex-wrap: wrap; /* Ensure items stay in a single row */
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+  gap: 5rem;
+  max-height: 1200px;
+  }
+  
+  .bookList::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+  }
+
+
+
+ 
+  

@@ -1,0 +1,66 @@
+/* BookDetail.module.css */
+.container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .imageContainer {
+    flex: 1;
+    margin: 2rem;
+  }
+  
+  .image {
+    width: 80%;
+    max-height: 100%;
+  }
+  
+  .detailsContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding:1rem;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    cursor: pointer;
+    color: gray;
+  }
+
+  .cartbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 10rem;
+    background-color: black;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+
+    .image {
+      width: 60%;
+      max-height: 80%;
+    }
+
+    .detailsContainer {
+      padding:2rem;
+    }
+  }
+  

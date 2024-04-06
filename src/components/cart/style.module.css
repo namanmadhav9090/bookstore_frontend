@@ -1,0 +1,125 @@
+/* ProductPopup.module.css */
+
+.popup {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background-color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* min-width: 300px; */
+    max-width: 35%;
+    color:white;
+    max-height: 500px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 1;
+  }
+
+  .top_cont{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .clearCartBtn{
+    background-color: blue;
+    border-radius: 3px;
+    width: 30%;
+    height: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .books_cont{
+    max-height: 380px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 1rem;
+  }
+  
+  .productItem {
+    margin-bottom: 10px;
+    border:1px solid black;
+    display: flex;
+    gap:1rem;
+  }
+
+  .checkout_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: cadetblue;
+  }
+
+  
+
+  .title{
+    display: block; /* Display as block element */
+    width: 70%; /* Ensure full width */
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; 
+  }
+  
+  .quantityControl  {
+    margin: 10px 5px;
+    display: flex;
+    gap:0.5rem;
+    
+  }
+
+  .productImage{
+     height: 4rem;
+     width: 3rem;
+  }
+
+  .productInfo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .qtybtn{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+  }
+
+@media(max-width:2280px){
+  .popup{
+    width: 80%;
+  }
+}
+
+@media(max-width:565px){
+  .popup{
+    width: 100%;
+  }
+  
+  .clearCartBtn{
+   font-size: 10px;
+   width: 50%;
+  }
+}
+
+
+@media(max-width:435px){
+  .popup{
+    width: 100%;
+  }
+  
+  .clearCartBtn{
+   font-size: 8px;
+   width: 50%;
+  }
+}
+  

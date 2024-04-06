@@ -1,0 +1,57 @@
+/* BookStore.module.css */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .searchBar {
+    margin-bottom: 20px;
+    max-width: 70%;
+    display: flex;
+    gap:1rem;
+  }
+
+  .searchinput{
+    max-width: 70%;
+  }
+
+  .searchbtn{
+    max-width: 20%;
+  }
+  
+  .bookscontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  }
+  
+  .book {
+    width: calc(33.33% - 20px); /* Three books in a row */
+    margin-bottom: 20px;
+  }
+  
+  .book img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .bookinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  @media (max-width: 600px) {
+    .searchBar {
+      max-width: 80%;
+      gap:0.5rem;
+      border:1px solid black;
+    }
+  
+    .searchbtn {
+      max-width: 25%;
+    }
+  }
+  
