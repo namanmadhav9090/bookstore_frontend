@@ -13,7 +13,7 @@ const useApiServices = () => {
   const [loading, setLoading] = useState(false);
 
   // const baseUrl = "http://localhost:8000/api"; // Replace with your base URL
-    const baseUrl = "https://bookstore-api-one.vercel.app/api"; // Replace with your base URL
+    const baseUrl = "https://bookstore-backend-8rwi.onrender.com/api"; // Replace with your base URL
 
   const instance = axios.create({
     baseURL: baseUrl,
