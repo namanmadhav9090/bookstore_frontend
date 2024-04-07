@@ -12,7 +12,8 @@ const useApiServices = () => {
   const { userData } = useSelector((state) => state.userData);
   const [loading, setLoading] = useState(false);
 
-  const baseUrl = "http://localhost:8000/api"; // Replace with your base URL
+  // const baseUrl = "http://localhost:8000/api"; // Replace with your base URL
+    const baseUrl = "https://bookstore-api-one.vercel.app"; // Replace with your base URL
 
   const instance = axios.create({
     baseURL: baseUrl,
