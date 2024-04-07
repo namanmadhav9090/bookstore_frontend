@@ -53,7 +53,7 @@ const LoginForm = () => {
       }
     } catch (error) {
       console.error('Error registering user:', error?.response?.data?.message);
-      alert(error?.response?.data?.message);
+      alert(error?.response?.data);
     }
   };
 
