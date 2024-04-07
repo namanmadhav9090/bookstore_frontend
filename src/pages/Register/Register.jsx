@@ -39,7 +39,13 @@ const RegistrationForm = () => {
         const token = response.access_token;
         Cookies.set('accessToken', token, { expires: 1 });
         dispatch(setUser(response))
-        navigate("/admin/dashboard");
+
+        if(response?.user?.role == "admin"){
+          navigate("/admin/dashboard");
+        } else {
+          navigate("/book/store");
+        }
+        // navigate("/admin/dashboard");
       } else {
      
       }
