@@ -23,7 +23,7 @@ const ProductPopup = () => {
       setTotal(totalPrice);
     } catch (error) {
       console.log(error);
-      alert(error?.response?.data?.message);
+      alert(error?.response?.data);
     }
   };
 
@@ -57,7 +57,7 @@ const ProductPopup = () => {
       }
     } catch (error) {
       console.log(error);
-      alert(error?.response?.data?.message);
+      alert(error?.response?.data);
     }
   };
 
@@ -71,7 +71,7 @@ const ProductPopup = () => {
         getCartItems();
       } catch (error) {
         console.log(error);
-        alert(error?.response?.data?.message);
+        alert(error?.response?.data);
       }
     } else {
       try {
